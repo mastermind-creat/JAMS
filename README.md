@@ -6,7 +6,6 @@ This web application is designed to send success wishes to Form Four students at
 
 ## Features
 
-- **Countdown Timer**: Displays the time remaining until the KCSE exams.
 - **Success Wishes**: A collection of motivational messages from peers.
 - **Confetti Animation**: Celebratory confetti falling from the top of the page to enhance the user experience.
 - **Responsive Design**: The application is designed to work on various screen sizes, making it accessible on both desktop and mobile devices.
@@ -24,4 +23,4 @@ To run the application locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone  https://mastermind-creat.github.io/JAMS/
