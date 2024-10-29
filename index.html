@@ -72,6 +72,11 @@
             </div>
         </div>
     </div>
+    <!-- Password Input Section -->
+    <div class="text-center mt-5">
+        <input type="password" id="password" placeholder="Enter Password" class="form-control w-50 mx-auto mb-3">
+        <button class="btn btn-primary" onclick="checkPassword()">View</button>
+    </div>
 
     <!-- Footer -->
     <footer class="text-center mt-5">
@@ -88,6 +93,19 @@
 
     <!-- Confetti Container -->
     <div id="confetti-container"></div>
+    
+      <script>
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            if (password === 'ChelsyM') {
+                window.location.href = 'chelsy.html'; // Redirect to chelsy.html
+            } else if (password === 'Sclaudia') {
+                window.location.href = 'selline.html'; // Redirect to selline.html
+            } else {
+                alert('Incorrect password. Please try again.');
+            }
+        }
+    </script>
 
     <script src="confetti.js"></script>
    <!--  <script src="script.js"></script> -->
